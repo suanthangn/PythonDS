@@ -1,0 +1,17 @@
+def weekday_name(day_of_week):
+    if(day_of_week == 1):
+        print("Sunday")
+    elif(day_of_week == 2):
+        print("Monday")
+    elif(day_of_week == 3):
+        print("Tuesday")
+    elif(day_of_week == 4):
+        print("Wednesday")
+    elif(day_of_week == 5):
+        print("Thuursday")
+    elif(day_of_week == 6):
+        print("Friday")
+    elif(day_of_week == 7):
+        print("Saturday")
+    else:
+        print("Day of week does not exist")
